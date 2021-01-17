@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="news_lines">
+        <item name="firstline" type="string">Get the World news in pocket</item>
+        <item name="fourthline" type="string">Search for the desired news</item>
+        <item name="secondline" type="string">Pull down to Refresh</item>
+        <item name="thirdline" type="string">For feedback click send  </item>
+
+    </string-array>
+
+
+</resources>

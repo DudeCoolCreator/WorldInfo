@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/alert_background"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/dude_cool"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Design any app Mail to ourapplaboratory@gmail.com"
+        android:textSize="10dp"
+        android:textColor="@color/red"
+        android:fontFamily="@font/g_bold"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contact me on Quora https://www.quora.com/profile/Dude-Cool-35"
+        android:textSize="10dp"
+        android:textColor="@color/red"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/g_bold"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:text="Cancel"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+</LinearLayout>
